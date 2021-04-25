@@ -9,7 +9,7 @@
 
 ### Installation
 
-- Create a folder named 'colors' in your '~/.config/nvim/' directory. ('~/.config/nvim/colors');
+- Create a folder named 'colors' in your '.config/nvim/' directory. ('.config/nvim/colors');
 - Run on your terminal:
 	- git clone https://github.com/owozsh/amora
 	- cd amora/colors
