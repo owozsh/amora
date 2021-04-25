@@ -5,6 +5,8 @@
 ![Amora introduction text](../amora_screenshot.png);
 ![Amora color palette screenshot](../amora_screenshot.png);
 
+	Amora is still under development. You can help me by sending issues or donating (see support section).
+
 ### Installation
 
 - Create a folder named 'colors' in your '~/.config/nvim/' directory. ('~/.config/nvim/colors');
