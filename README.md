@@ -1,6 +1,6 @@
-# Amora !!!
+# Amora !
 
-### Introduction
+### Introduction (Read the code!)
 
 ![Amora introduction text](amora_screenshot.png);
 ![Amora color palette screenshot](amora_palette.png);
