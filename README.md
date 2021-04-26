@@ -7,7 +7,14 @@
 
 > Amora is still under development. You can help me by sending issues or donating (see support section).
 
-### Installation
+## Installation
+
+### Using VIM PLUG
+
+- Plug 'owozsh/amora'
+- colorscheme amora
+
+### Manually
 
 - Create a folder named 'colors' in your '.config/nvim/' directory. ('.config/nvim/colors');
 - Run on your terminal:
@@ -16,11 +23,11 @@
 	- ./install.sh
 - Make sure to set your terminal background color to #2A2330 (or just pick the background on the screenshots);
 
-### Support
+## Support
 
 [Buy me a coffee! :)](https://www.buymeacoffee.com/owozsh)
 
-### Comments
+## Comments
 
 Hi! I'm owozsh, the creator of Amora.
 
