@@ -2,7 +2,7 @@
 " Author:      owozsh (owozsh.pro@gmail.com)
 " Webpage:     
 " Description: 
-" Last Change: 2021-04-25
+" Last Change: 2021-04-26
 
 hi clear
 
@@ -15,7 +15,7 @@ let colors_name = "amora"
 if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
     hi Normal ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#DEDBEB gui=NONE
     hi NonText ctermbg=NONE ctermfg=1 cterm=NONE guibg=NONE guifg=#E83F80 gui=NONE
-    hi Comment ctermbg=NONE ctermfg=7 cterm=italic guibg=NONE guifg=#4e3e5e gui=italic
+    hi Comment ctermbg=NONE ctermfg=7 cterm=italic guibg=NONE guifg=#634e75 gui=italic
     hi Constant ctermbg=NONE ctermfg=4 cterm=NONE guibg=NONE guifg=#9985D1 gui=NONE
     hi Error ctermbg=NONE ctermfg=9 cterm=NONE guibg=NONE guifg=#F55D8F gui=NONE
     hi Identifier ctermbg=NONE ctermfg=12 cterm=NONE guibg=NONE guifg=#B4A4DE gui=NONE
@@ -26,7 +26,7 @@ if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
     hi String ctermbg=NONE ctermfg=2 cterm=NONE guibg=NONE guifg=#A2BAA8 gui=NONE
     hi Label ctermbg=NONE ctermfg=14 cterm=NONE guibg=NONE guifg=#C4D1F5 gui=NONE
     hi Operator ctermbg=NONE ctermfg=11 cterm=NONE guibg=NONE guifg=#F0DDD8 gui=NONE
-    hi Todo ctermbg=NONE ctermfg=7 cterm=bold guibg=NONE guifg=#4e3e5e gui=bold
+    hi Todo ctermbg=NONE ctermfg=7 cterm=bold guibg=NONE guifg=#634e75 gui=bold
     hi Type ctermbg=NONE ctermfg=6 cterm=italic guibg=NONE guifg=#AABAE7 gui=italic
     hi Underlined ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#DEDBEB gui=NONE
     hi StatusLine ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#DEDBEB gui=NONE
@@ -37,11 +37,11 @@ if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
     hi TabLineSel ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#DEDBEB gui=NONE
     hi Title ctermbg=NONE ctermfg=9 cterm=bold guibg=NONE guifg=#F55D8F gui=bold
     hi CursorLine ctermbg=8 ctermfg=NONE cterm=NONE guibg=#302838 guifg=NONE gui=NONE
-    hi LineNr ctermbg=16 ctermfg=7 cterm=NONE guibg=#231d29 guifg=#4e3e5e gui=NONE
+    hi LineNr ctermbg=16 ctermfg=7 cterm=NONE guibg=#231d29 guifg=#634e75 gui=NONE
     hi CursorLineNr ctermbg=8 ctermfg=9 cterm=bold guibg=#302838 guifg=#F55D8F gui=bold
     hi helpLeadBlank ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#DEDBEB gui=NONE
     hi helpNormal ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#DEDBEB gui=NONE
-    hi Visual ctermbg=7 ctermfg=15 cterm=NONE guibg=#4e3e5e guifg=#DEDBEB gui=NONE
+    hi Visual ctermbg=7 ctermfg=15 cterm=NONE guibg=#634e75 guifg=#DEDBEB gui=NONE
     hi VisualNOS ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#DEDBEB gui=NONE
     hi Pmenu ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#DEDBEB gui=NONE
     hi PmenuSbar ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#DEDBEB gui=NONE
@@ -155,6 +155,6 @@ hi link WarningMsg Error
 hi link CursorIM Cursor
 hi link Terminal Normal
 
-let g:terminal_ansi_colors = [ '#2a2331', '#E83F80', '#A2BAA8', '#EACAC0', '#9985D1', '#E68AC1', '#AABAE7', '#4e3e5e', '#302838', '#F55D8F', '#BFD1C3', '#F0DDD8', '#B4A4DE', '#EDABD2', '#C4D1F5', '#DEDBEB', ]
+let g:terminal_ansi_colors = [ '#2a2331', '#E83F80', '#A2BAA8', '#EACAC0', '#9985D1', '#E68AC1', '#AABAE7', '#634e75', '#302838', '#F55D8F', '#BFD1C3', '#F0DDD8', '#B4A4DE', '#EDABD2', '#C4D1F5', '#DEDBEB', ]
 
 " Generated with RNB (https://github.com/romainl/vim-rnb)
