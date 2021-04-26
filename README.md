@@ -15,6 +15,7 @@ Make sure to set your terminal background color to #2A2331
 
 - Plug 'owozsh/amora'
 - colorscheme amora
+- reopen VIM/NEOVIM and run :PlugInstall
 
 ### Manually
 
