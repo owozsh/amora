@@ -32,9 +32,9 @@ if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
     hi StatusLine ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#DEDBEB gui=NONE
     hi StatusLineNC ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#DEDBEB gui=NONE
     hi VertSplit ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#DEDBEB gui=NONE
-    hi TabLine ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#DEDBEB gui=NONE
-    hi TabLineFill ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#DEDBEB gui=NONE
-    hi TabLineSel ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#DEDBEB gui=NONE
+    hi TabLine ctermbg=NONE ctermfg=7 cterm=NONE guibg=NONE guifg=#634e75 gui=NONE
+    hi TabLineFill ctermbg=16 ctermfg=15 cterm=NONE guibg=#231d29 guifg=#DEDBEB gui=NONE
+    hi TabLineSel ctermbg=7 ctermfg=15 cterm=NONE guibg=#634e75 guifg=#DEDBEB gui=NONE
     hi Title ctermbg=NONE ctermfg=9 cterm=bold guibg=NONE guifg=#F55D8F gui=bold
     hi CursorLine ctermbg=8 ctermfg=NONE cterm=NONE guibg=#302838 guifg=NONE gui=NONE
     hi LineNr ctermbg=16 ctermfg=7 cterm=NONE guibg=#231d29 guifg=#634e75 gui=NONE
@@ -56,7 +56,7 @@ if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
     hi DiffDelete ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#DEDBEB gui=NONE
     hi DiffText ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#DEDBEB gui=NONE
     hi IncSearch ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#DEDBEB gui=NONE
-    hi Search ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#DEDBEB gui=NONE
+    hi Search ctermbg=1 ctermfg=15 cterm=NONE guibg=#E83F80 guifg=#DEDBEB gui=NONE
     hi Directory ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#DEDBEB gui=NONE
     hi MatchParen ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#DEDBEB gui=NONE
     hi SpellBad ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#DEDBEB gui=NONE guisp=#F55D8F
@@ -100,9 +100,9 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi StatusLine ctermbg=NONE ctermfg=white cterm=NONE
     hi StatusLineNC ctermbg=NONE ctermfg=white cterm=NONE
     hi VertSplit ctermbg=NONE ctermfg=white cterm=NONE
-    hi TabLine ctermbg=NONE ctermfg=white cterm=NONE
-    hi TabLineFill ctermbg=NONE ctermfg=white cterm=NONE
-    hi TabLineSel ctermbg=NONE ctermfg=white cterm=NONE
+    hi TabLine ctermbg=NONE ctermfg=gray cterm=NONE
+    hi TabLineFill ctermbg=darkblack ctermfg=white cterm=NONE
+    hi TabLineSel ctermbg=gray ctermfg=white cterm=NONE
     hi Title ctermbg=NONE ctermfg=red cterm=bold
     hi CursorLine ctermbg=darkgray ctermfg=NONE cterm=NONE
     hi LineNr ctermbg=darkblack ctermfg=gray cterm=NONE
@@ -124,7 +124,7 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi DiffDelete ctermbg=NONE ctermfg=white cterm=NONE
     hi DiffText ctermbg=NONE ctermfg=white cterm=NONE
     hi IncSearch ctermbg=NONE ctermfg=white cterm=NONE
-    hi Search ctermbg=NONE ctermfg=white cterm=NONE
+    hi Search ctermbg=darkred ctermfg=white cterm=NONE
     hi Directory ctermbg=NONE ctermfg=white cterm=NONE
     hi MatchParen ctermbg=NONE ctermfg=white cterm=NONE
     hi SpellBad ctermbg=NONE ctermfg=white cterm=NONE
