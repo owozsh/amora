@@ -9,6 +9,8 @@
 
 ## Installation
 
+Make sure to set your terminal background color to #2A2330 (or just pick the background on the screenshots);
+
 ### Using VIM PLUG
 
 - Plug 'owozsh/amora'
@@ -21,7 +23,6 @@
 	- git clone https://github.com/owozsh/amora
 	- cd amora/colors
 	- ./install.sh
-- Make sure to set your terminal background color to #2A2330 (or just pick the background on the screenshots);
 
 ## Support
 
