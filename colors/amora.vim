@@ -37,7 +37,7 @@ if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
     hi TabLineSel ctermbg=7 ctermfg=15 cterm=NONE guibg=#634e75 guifg=#DEDBEB gui=NONE
     hi Title ctermbg=NONE ctermfg=9 cterm=bold guibg=NONE guifg=#F55D8F gui=bold
     hi CursorLine ctermbg=8 ctermfg=NONE cterm=NONE guibg=#302838 guifg=NONE gui=NONE
-    hi LineNr ctermbg=16 ctermfg=7 cterm=NONE guibg=#231d29 guifg=#634e75 gui=NONE
+    hi LineNr ctermbg=16 ctermfg=0 cterm=NONE guibg=#231d29 guifg=#544263 gui=NONE
     hi CursorLineNr ctermbg=8 ctermfg=9 cterm=bold guibg=#302838 guifg=#F55D8F gui=bold
     hi helpLeadBlank ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#DEDBEB gui=NONE
     hi helpNormal ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#DEDBEB gui=NONE
@@ -105,7 +105,7 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi TabLineSel ctermbg=gray ctermfg=white cterm=NONE
     hi Title ctermbg=NONE ctermfg=red cterm=bold
     hi CursorLine ctermbg=darkgray ctermfg=NONE cterm=NONE
-    hi LineNr ctermbg=darkblack ctermfg=gray cterm=NONE
+    hi LineNr ctermbg=darkblack ctermfg=black cterm=NONE
     hi CursorLineNr ctermbg=darkgray ctermfg=red cterm=bold
     hi helpLeadBlank ctermbg=NONE ctermfg=white cterm=NONE
     hi helpNormal ctermbg=NONE ctermfg=white cterm=NONE
@@ -155,6 +155,6 @@ hi link WarningMsg Error
 hi link CursorIM Cursor
 hi link Terminal Normal
 
-let g:terminal_ansi_colors = [ '#2a2331', '#E83F80', '#A2BAA8', '#EACAC0', '#9985D1', '#E68AC1', '#AABAE7', '#634e75', '#302838', '#F55D8F', '#BFD1C3', '#F0DDD8', '#B4A4DE', '#EDABD2', '#C4D1F5', '#DEDBEB', ]
+let g:terminal_ansi_colors = [ '#544263', '#E83F80', '#A2BAA8', '#EACAC0', '#9985D1', '#E68AC1', '#AABAE7', '#634e75', '#302838', '#F55D8F', '#BFD1C3', '#F0DDD8', '#B4A4DE', '#EDABD2', '#C4D1F5', '#DEDBEB', ]
 
 " Generated with RNB (https://github.com/romainl/vim-rnb)
