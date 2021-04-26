@@ -9,7 +9,7 @@
 
 ## Installation
 
-Make sure to set your terminal background color to #2A2330 (or just pick the background on the screenshots);
+Make sure to set your terminal background color to #2A2331 
 
 ### Using VIM PLUG
 

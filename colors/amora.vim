@@ -155,6 +155,6 @@ hi link WarningMsg Error
 hi link CursorIM Cursor
 hi link Terminal Normal
 
-let g:terminal_ansi_colors = [ '#2A2331', '#E83F80', '#A2BAA8', '#EACAC0', '#9985D1', '#E68AC1', '#AABAE7', '#4e3e5e', '#302838', '#F55D8F', '#BFD1C3', '#F0DDD8', '#B4A4DE', '#EDABD2', '#C4D1F5', '#DEDBEB', ]
+let g:terminal_ansi_colors = [ '#2a2331', '#E83F80', '#A2BAA8', '#EACAC0', '#9985D1', '#E68AC1', '#AABAE7', '#4e3e5e', '#302838', '#F55D8F', '#BFD1C3', '#F0DDD8', '#B4A4DE', '#EDABD2', '#C4D1F5', '#DEDBEB', ]
 
 " Generated with RNB (https://github.com/romainl/vim-rnb)
