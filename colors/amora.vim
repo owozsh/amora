@@ -237,7 +237,7 @@ call s:h('SignColumn', s:comment)
 hi! link TabLine      AmoraBoundary
 hi! link TabLineFill  AmoraBgDarker
 hi! link TabLineSel   Normal
-hi! link Title        AmoraGreenBold
+hi! link Title        AmoraRed
 hi! link VertSplit    AmoraBoundary
 hi! link Visual       AmoraSelection
 hi! link VisualNOS    Visual
