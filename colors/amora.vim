@@ -177,6 +177,7 @@ call s:h('AmoraPurpleBold', s:purple, s:none, [s:attrs.bold])
 call s:h('AmoraPurpleItalic', s:purple, s:none, [s:attrs.italic])
 
 call s:h('AmoraRed', s:red)
+call s:h('AmoraRedItalic', s:red, s:none, [s:attrs.italic])
 call s:h('AmoraRedInverse', s:fg, s:red)
 
 call s:h('AmoraYellow', s:yellow)
@@ -287,13 +288,13 @@ hi! link Float Constant
 hi! link Identifier AmoraPurple
 hi! link Function AmoraPurple
 
-hi! link Statement AmoraRed
-hi! link Conditional AmoraRed
-hi! link Repeat AmoraRed
-hi! link Label AmoraRed
-hi! link Operator AmoraRed
-hi! link Keyword AmoraRed
-hi! link Exception AmoraRed
+hi! link Statement AmoraRedItalic
+hi! link Conditional AmoraRedItalic
+hi! link Repeat AmoraRedItalic
+hi! link Label AmoraRedItalic
+hi! link Operator AmoraRedItalic
+hi! link Keyword AmoraRedItalic
+hi! link Exception AmoraRedItalic
 
 hi! link PreProc AmoraRed
 hi! link Include AmoraRed
