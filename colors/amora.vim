@@ -157,7 +157,7 @@ call s:h('AmoraFgBold', s:fg, s:none, [s:attrs.bold])
 call s:h('AmoraComment', s:comment)
 call s:h('AmoraCommentBold', s:comment, s:none, [s:attrs.bold])
 
-call s:h('AmoraSelection', s:none, s:selection)
+call s:h('AmoraSelection', s:fg, s:selection)
 
 call s:h('AmoraSubtle', s:subtle)
 
