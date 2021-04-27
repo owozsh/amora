@@ -293,7 +293,7 @@ hi! link Statement AmoraRedItalic
 hi! link Conditional AmoraRedItalic
 hi! link Repeat AmoraRedItalic
 hi! link Label AmoraRedItalic
-hi! link Operator AmoraRedItalic
+hi! link Operator AmoraRed
 hi! link Keyword AmoraRedItalic
 hi! link Exception AmoraRedItalic
 
