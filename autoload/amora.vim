@@ -10,7 +10,7 @@ let g:amora#palette.bgdark    = ['#251f2b', 235]
 let g:amora#palette.bgdarker  = ['#211c26', 234]
 
 let g:amora#palette.comment   = ['#634e75',  61]
-let g:amora#palette.selection = ['#DEDBEB', 239]
+let g:amora#palette.selection = ['#634e75', 239]
 let g:amora#palette.subtle    = ['#302838', 238]
 
 let g:amora#palette.red       = ['#fb5c8e', 203]
