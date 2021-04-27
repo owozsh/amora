@@ -177,6 +177,7 @@ call s:h('AmoraPurpleBold', s:purple, s:none, [s:attrs.bold])
 call s:h('AmoraPurpleItalic', s:purple, s:none, [s:attrs.italic])
 
 call s:h('AmoraRed', s:red)
+call s:h('AmoraRedBold', s:red, s:none, [s:attrs.bold])
 call s:h('AmoraRedItalic', s:red, s:none, [s:attrs.italic])
 call s:h('AmoraRedInverse', s:fg, s:red)
 
@@ -238,7 +239,7 @@ call s:h('SignColumn', s:comment)
 hi! link TabLine      AmoraBoundary
 hi! link TabLineFill  AmoraBgDarker
 hi! link TabLineSel   Normal
-hi! link Title        AmoraRed
+hi! link Title        AmoraRedBold
 hi! link VertSplit    AmoraBoundary
 hi! link Visual       AmoraSelection
 hi! link VisualNOS    Visual
