@@ -1,160 +1,317 @@
-" amora.vim -- Vim color scheme.
-" Author:      owozsh (owozsh.pro@gmail.com)
-" Webpage:     
-" Description: 
-" Last Change: 2021-04-26
+" amora.vim -- VIM Color Scheme.
+" File: amora.vim
+" Author: owozsh
+" Source: https://github.com/owozsh/amora
+" Description: Color scheme based on Dracula and Gruvbox Material for VIM.
 
 hi clear
 
-if exists("syntax_on")
-  syntax reset
+if v:version > 580
+  highlight clear
+  if exists('syntax_on')
+    syntax reset
+  endif
 endif
 
-let colors_name = "amora"
-
-if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
-    hi Normal ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#DEDBEB gui=NONE
-    hi NonText ctermbg=NONE ctermfg=1 cterm=NONE guibg=NONE guifg=#E83F80 gui=NONE
-    hi Comment ctermbg=NONE ctermfg=7 cterm=italic guibg=NONE guifg=#634e75 gui=italic
-    hi Constant ctermbg=NONE ctermfg=4 cterm=NONE guibg=NONE guifg=#9985D1 gui=NONE
-    hi Error ctermbg=NONE ctermfg=9 cterm=NONE guibg=NONE guifg=#F55D8F gui=NONE
-    hi Identifier ctermbg=NONE ctermfg=12 cterm=NONE guibg=NONE guifg=#B4A4DE gui=NONE
-    hi Ignore ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#DEDBEB gui=NONE
-    hi PreProc ctermbg=NONE ctermfg=9 cterm=bold guibg=NONE guifg=#F55D8F gui=bold
-    hi Special ctermbg=NONE ctermfg=13 cterm=NONE guibg=NONE guifg=#EDABD2 gui=NONE
-    hi Statement ctermbg=NONE ctermfg=9 cterm=italic guibg=NONE guifg=#F55D8F gui=italic
-    hi String ctermbg=NONE ctermfg=2 cterm=NONE guibg=NONE guifg=#A2BAA8 gui=NONE
-    hi Label ctermbg=NONE ctermfg=14 cterm=NONE guibg=NONE guifg=#C4D1F5 gui=NONE
-    hi Operator ctermbg=NONE ctermfg=11 cterm=NONE guibg=NONE guifg=#F0DDD8 gui=NONE
-    hi Todo ctermbg=NONE ctermfg=7 cterm=bold guibg=NONE guifg=#634e75 gui=bold
-    hi Type ctermbg=NONE ctermfg=6 cterm=italic guibg=NONE guifg=#AABAE7 gui=italic
-    hi Underlined ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#DEDBEB gui=NONE
-    hi StatusLine ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#DEDBEB gui=NONE
-    hi StatusLineNC ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#DEDBEB gui=NONE
-    hi VertSplit ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#DEDBEB gui=NONE
-    hi TabLine ctermbg=NONE ctermfg=7 cterm=NONE guibg=NONE guifg=#634e75 gui=NONE
-    hi TabLineFill ctermbg=16 ctermfg=15 cterm=NONE guibg=#231d29 guifg=#DEDBEB gui=NONE
-    hi TabLineSel ctermbg=7 ctermfg=15 cterm=NONE guibg=#634e75 guifg=#DEDBEB gui=NONE
-    hi Title ctermbg=NONE ctermfg=9 cterm=bold guibg=NONE guifg=#F55D8F gui=bold
-    hi CursorLine ctermbg=8 ctermfg=NONE cterm=NONE guibg=#302838 guifg=NONE gui=NONE
-    hi LineNr ctermbg=16 ctermfg=0 cterm=NONE guibg=#231d29 guifg=#544263 gui=NONE
-    hi CursorLineNr ctermbg=8 ctermfg=9 cterm=bold guibg=#302838 guifg=#F55D8F gui=bold
-    hi helpLeadBlank ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#DEDBEB gui=NONE
-    hi helpNormal ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#DEDBEB gui=NONE
-    hi Visual ctermbg=7 ctermfg=15 cterm=NONE guibg=#634e75 guifg=#DEDBEB gui=NONE
-    hi VisualNOS ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#DEDBEB gui=NONE
-    hi Pmenu ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#DEDBEB gui=NONE
-    hi PmenuSbar ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#DEDBEB gui=NONE
-    hi PmenuSel ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#DEDBEB gui=NONE
-    hi PmenuThumb ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#DEDBEB gui=NONE
-    hi FoldColumn ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#DEDBEB gui=NONE
-    hi Folded ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#DEDBEB gui=NONE
-    hi WildMenu ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#DEDBEB gui=NONE
-    hi SpecialKey ctermbg=NONE ctermfg=3 cterm=NONE guibg=NONE guifg=#EACAC0 gui=NONE
-    hi DiffAdd ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#DEDBEB gui=NONE
-    hi DiffChange ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#DEDBEB gui=NONE
-    hi DiffDelete ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#DEDBEB gui=NONE
-    hi DiffText ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#DEDBEB gui=NONE
-    hi IncSearch ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#DEDBEB gui=NONE
-    hi Search ctermbg=1 ctermfg=15 cterm=NONE guibg=#E83F80 guifg=#DEDBEB gui=NONE
-    hi Directory ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#DEDBEB gui=NONE
-    hi MatchParen ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#DEDBEB gui=NONE
-    hi SpellBad ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#DEDBEB gui=NONE guisp=#F55D8F
-    hi SpellCap ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#DEDBEB gui=NONE guisp=#B4A4DE
-    hi SpellLocal ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#DEDBEB gui=NONE guisp=#EDABD2
-    hi SpellRare ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#DEDBEB gui=NONE guisp=#C4D1F5
-    hi ColorColumn ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#DEDBEB gui=NONE
-    hi SignColumn ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#DEDBEB gui=NONE
-    hi ErrorMsg ctermbg=NONE ctermfg=1 cterm=NONE guibg=NONE guifg=#E83F80 gui=NONE
-    hi ModeMsg ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#DEDBEB gui=NONE
-    hi MoreMsg ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#DEDBEB gui=NONE
-    hi Question ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#DEDBEB gui=NONE
-    hi Cursor ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#DEDBEB gui=NONE
-    hi CursorColumn ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#DEDBEB gui=NONE
-    hi QuickFixLine ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#DEDBEB gui=NONE
-    hi Conceal ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#DEDBEB gui=NONE
-    hi ToolbarLine ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#DEDBEB gui=NONE
-    hi ToolbarButton ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#DEDBEB gui=NONE
-    hi debugPC ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#DEDBEB gui=NONE
-    hi debugBreakpoint ctermbg=NONE ctermfg=15 cterm=NONE guibg=NONE guifg=#DEDBEB gui=NONE
-
-elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
-    set t_Co=16
-
-    hi Normal ctermbg=NONE ctermfg=white cterm=NONE
-    hi NonText ctermbg=NONE ctermfg=darkred cterm=NONE
-    hi Comment ctermbg=NONE ctermfg=gray cterm=italic
-    hi Constant ctermbg=NONE ctermfg=darkblue cterm=NONE
-    hi Error ctermbg=NONE ctermfg=red cterm=NONE
-    hi Identifier ctermbg=NONE ctermfg=blue cterm=NONE
-    hi Ignore ctermbg=NONE ctermfg=white cterm=NONE
-    hi PreProc ctermbg=NONE ctermfg=red cterm=bold
-    hi Special ctermbg=NONE ctermfg=magenta cterm=NONE
-    hi Statement ctermbg=NONE ctermfg=red cterm=italic
-    hi String ctermbg=NONE ctermfg=darkgreen cterm=NONE
-    hi Label ctermbg=NONE ctermfg=cyan cterm=NONE
-    hi Operator ctermbg=NONE ctermfg=yellow cterm=NONE
-    hi Todo ctermbg=NONE ctermfg=gray cterm=bold
-    hi Type ctermbg=NONE ctermfg=darkcyan cterm=italic
-    hi Underlined ctermbg=NONE ctermfg=white cterm=NONE
-    hi StatusLine ctermbg=NONE ctermfg=white cterm=NONE
-    hi StatusLineNC ctermbg=NONE ctermfg=white cterm=NONE
-    hi VertSplit ctermbg=NONE ctermfg=white cterm=NONE
-    hi TabLine ctermbg=NONE ctermfg=gray cterm=NONE
-    hi TabLineFill ctermbg=darkblack ctermfg=white cterm=NONE
-    hi TabLineSel ctermbg=gray ctermfg=white cterm=NONE
-    hi Title ctermbg=NONE ctermfg=red cterm=bold
-    hi CursorLine ctermbg=darkgray ctermfg=NONE cterm=NONE
-    hi LineNr ctermbg=darkblack ctermfg=black cterm=NONE
-    hi CursorLineNr ctermbg=darkgray ctermfg=red cterm=bold
-    hi helpLeadBlank ctermbg=NONE ctermfg=white cterm=NONE
-    hi helpNormal ctermbg=NONE ctermfg=white cterm=NONE
-    hi Visual ctermbg=gray ctermfg=white cterm=NONE
-    hi VisualNOS ctermbg=NONE ctermfg=white cterm=NONE
-    hi Pmenu ctermbg=NONE ctermfg=white cterm=NONE
-    hi PmenuSbar ctermbg=NONE ctermfg=white cterm=NONE
-    hi PmenuSel ctermbg=NONE ctermfg=white cterm=NONE
-    hi PmenuThumb ctermbg=NONE ctermfg=white cterm=NONE
-    hi FoldColumn ctermbg=NONE ctermfg=white cterm=NONE
-    hi Folded ctermbg=NONE ctermfg=white cterm=NONE
-    hi WildMenu ctermbg=NONE ctermfg=white cterm=NONE
-    hi SpecialKey ctermbg=NONE ctermfg=darkyellow cterm=NONE
-    hi DiffAdd ctermbg=NONE ctermfg=white cterm=NONE
-    hi DiffChange ctermbg=NONE ctermfg=white cterm=NONE
-    hi DiffDelete ctermbg=NONE ctermfg=white cterm=NONE
-    hi DiffText ctermbg=NONE ctermfg=white cterm=NONE
-    hi IncSearch ctermbg=NONE ctermfg=white cterm=NONE
-    hi Search ctermbg=darkred ctermfg=white cterm=NONE
-    hi Directory ctermbg=NONE ctermfg=white cterm=NONE
-    hi MatchParen ctermbg=NONE ctermfg=white cterm=NONE
-    hi SpellBad ctermbg=NONE ctermfg=white cterm=NONE
-    hi SpellCap ctermbg=NONE ctermfg=white cterm=NONE
-    hi SpellLocal ctermbg=NONE ctermfg=white cterm=NONE
-    hi SpellRare ctermbg=NONE ctermfg=white cterm=NONE
-    hi ColorColumn ctermbg=NONE ctermfg=white cterm=NONE
-    hi SignColumn ctermbg=NONE ctermfg=white cterm=NONE
-    hi ErrorMsg ctermbg=NONE ctermfg=darkred cterm=NONE
-    hi ModeMsg ctermbg=NONE ctermfg=white cterm=NONE
-    hi MoreMsg ctermbg=NONE ctermfg=white cterm=NONE
-    hi Question ctermbg=NONE ctermfg=white cterm=NONE
-    hi Cursor ctermbg=NONE ctermfg=white cterm=NONE
-    hi CursorColumn ctermbg=NONE ctermfg=white cterm=NONE
-    hi QuickFixLine ctermbg=NONE ctermfg=white cterm=NONE
-    hi Conceal ctermbg=NONE ctermfg=white cterm=NONE
-    hi ToolbarLine ctermbg=NONE ctermfg=white cterm=NONE
-    hi ToolbarButton ctermbg=NONE ctermfg=white cterm=NONE
-    hi debugPC ctermbg=NONE ctermfg=white cterm=NONE
-    hi debugBreakpoint ctermbg=NONE ctermfg=white cterm=NONE
+if !(has('termguicolors') && &termguicolors) && !has('gui_running') && &t_Co != 256
+  finish
 endif
 
-hi link EndOfBuffer NonText
-hi link Number Constant
-hi link StatusLineTerm StatusLine
-hi link StatusLineTermNC StatusLineNC
-hi link WarningMsg Error
-hi link CursorIM Cursor
-hi link Terminal Normal
+let g:colors_name="amora"
 
-let g:terminal_ansi_colors = [ '#544263', '#E83F80', '#A2BAA8', '#EACAC0', '#9985D1', '#E68AC1', '#AABAE7', '#634e75', '#302838', '#F55D8F', '#BFD1C3', '#F0DDD8', '#B4A4DE', '#EDABD2', '#C4D1F5', '#DEDBEB', ]
+" Palette:
 
-" Generated with RNB (https://github.com/romainl/vim-rnb)
+let s:fg        = g:amora#palette.fg
+
+let s:bglighter = g:amora#palette.bglighter
+let s:bglight   = g:amora#palette.bglight
+let s:bg        = g:amora#palette.bg
+let s:bgdark    = g:amora#palette.bgdark
+let s:bgdarker  = g:amora#palette.bgdarker
+
+let s:comment   = g:amora#palette.comment
+let s:selection = g:amora#palette.selection
+let s:subtle    = g:amora#palette.subtle
+
+let s:red       = g:amora#palette.red
+let s:green     = g:amora#palette.green
+let s:yellow    = g:amora#palette.yellow
+let s:purple    = g:amora#palette.purple
+let s:pink      = g:amora#palette.pink
+let s:cyan      = g:amora#palette.cyan
+
+let s:none      = ['NONE', 'NONE']
+
+if has('nvim')
+  for s:i in range(16)
+    let g:terminal_color_{s:i} = g:amora#palette['color_' . s:i]
+  endfor
+endif
+
+if has('terminal')
+  let g:terminal_ansi_colors = []
+  for s:i in range(16)
+    call add(g:terminal_ansi_colors, g:amora#palette['color_' . s:i])
+  endfor
+endif
+
+" User Configuration: {{{2
+
+if !exists('g:amora_bold')
+  let g:amora_bold = 1
+endif
+
+if !exists('g:amora_italic')
+  let g:amora_italic = 1
+endif
+
+if !exists('g:amora_underline')
+  let g:amora_underline = 1
+endif
+
+if !exists('g:amora_undercurl')
+  let g:amora_undercurl = g:amora_underline
+endif
+
+if !exists('g:amora_inverse')
+  let g:amora_inverse = 1
+endif
+
+if !exists('g:amora_colorterm')
+  let g:amora_colorterm = 1
+endif
+
+" User Configuration: {{{2
+
+if !exists('g:amora_bold')
+  let g:amora_bold = 1
+endif
+
+if !exists('g:amora_italic')
+  let g:amora_italic = 1
+endif
+
+if !exists('g:amora_underline')
+  let g:amora_underline = 1
+endif
+
+if !exists('g:amora_undercurl')
+  let g:amora_undercurl = g:amora_underline
+endif
+
+if !exists('g:amora_inverse')
+  let g:amora_inverse = 1
+endif
+
+if !exists('g:amora_colorterm')
+  let g:amora_colorterm = 1
+endif
+
+" Script Helpers:
+
+let s:attrs = {
+      \ 'bold': g:amora_bold == 1 ? 'bold' : 0,
+      \ 'italic': g:amora_italic == 1 ? 'italic' : 0,
+      \ 'underline': g:amora_underline == 1 ? 'underline' : 0,
+      \ 'undercurl': g:amora_undercurl == 1 ? 'undercurl' : 0,
+      \ 'inverse': g:amora_inverse == 1 ? 'inverse' : 0,
+      \}
+
+function! s:h(scope, fg, ...) " bg, attr_list, special
+  let l:fg = copy(a:fg)
+  let l:bg = get(a:, 1, ['NONE', 'NONE'])
+
+  let l:attr_list = filter(get(a:, 2, ['NONE']), 'type(v:val) == 1')
+  let l:attrs = len(l:attr_list) > 0 ? join(l:attr_list, ',') : 'NONE'
+
+  " Falls back to coloring foreground group on terminals because
+  " nearly all do not support undercurl
+  let l:special = get(a:, 3, ['NONE', 'NONE'])
+  if l:special[0] !=# 'NONE' && l:fg[0] ==# 'NONE' && !has('gui_running')
+    let l:fg[0] = l:special[0]
+    let l:fg[1] = l:special[1]
+  endif
+
+  let l:hl_string = [
+        \ 'highlight', a:scope,
+        \ 'guifg=' . l:fg[0], 'ctermfg=' . l:fg[1],
+        \ 'guibg=' . l:bg[0], 'ctermbg=' . l:bg[1],
+        \ 'gui=' . l:attrs, 'cterm=' . l:attrs,
+        \ 'guisp=' . l:special[0],
+        \]
+
+  execute join(l:hl_string, ' ')
+endfunction
+
+" Amora Highlight Groups:
+
+call s:h('AmoraBgLight', s:none, s:bglight)
+call s:h('AmoraBgLighter', s:none, s:bglighter)
+call s:h('AmoraBgDark', s:none, s:bgdark)
+call s:h('AmoraBgDarker', s:none, s:bgdarker)
+
+call s:h('AmoraFg', s:fg)
+call s:h('AmoraFgUnderline', s:fg, s:none, [s:attrs.underline])
+call s:h('AmoraFgBold', s:fg, s:none, [s:attrs.bold])
+
+call s:h('AmoraComment', s:comment)
+call s:h('AmoraCommentBold', s:comment, s:none, [s:attrs.bold])
+
+call s:h('AmoraSelection', s:none, s:selection)
+
+call s:h('AmoraSubtle', s:subtle)
+
+call s:h('AmoraCyan', s:cyan)
+call s:h('AmoraCyanItalic', s:cyan, s:none, [s:attrs.italic])
+
+call s:h('AmoraGreen', s:green)
+call s:h('AmoraGreenBold', s:green, s:none, [s:attrs.bold])
+call s:h('AmoraGreenItalic', s:green, s:none, [s:attrs.italic])
+call s:h('AmoraGreenItalicUnderline', s:green, s:none, [s:attrs.italic, s:attrs.underline])
+
+call s:h('AmoraPink', s:pink)
+call s:h('AmoraPinkItalic', s:pink, s:none, [s:attrs.italic])
+
+call s:h('AmoraPurple', s:purple)
+call s:h('AmoraPurpleBold', s:purple, s:none, [s:attrs.bold])
+call s:h('AmoraPurpleItalic', s:purple, s:none, [s:attrs.italic])
+
+call s:h('AmoraRed', s:red)
+call s:h('AmoraRedInverse', s:fg, s:red)
+
+call s:h('AmoraYellow', s:yellow)
+call s:h('AmoraYellowItalic', s:yellow, s:none, [s:attrs.italic])
+
+call s:h('AmoraError', s:red, s:none, [], s:red)
+
+call s:h('AmoraErrorLine', s:none, s:none, [s:attrs.undercurl], s:red)
+call s:h('AmoraWarnLine', s:none, s:none, [s:attrs.undercurl], s:yellow)
+call s:h('AmoraInfoLine', s:none, s:none, [s:attrs.undercurl], s:cyan)
+
+call s:h('AmoraTodo', s:cyan, s:none, [s:attrs.bold, s:attrs.inverse])
+call s:h('AmoraSearch', s:red, s:none, [s:attrs.inverse])
+call s:h('AmoraBoundary', s:comment, s:bgdark)
+call s:h('AmoraLink', s:cyan, s:none, [s:attrs.underline])
+
+call s:h('AmoraDiffChange', s:yellow, s:none)
+call s:h('AmoraDiffText', s:bg, s:yellow)
+call s:h('AmoraDiffDelete', s:red, s:bgdark)
+
+" User Interface:
+
+set background=dark
+
+" Required as some plugins will overwrite
+call s:h('Normal', s:fg, g:amora_colorterm || has('gui_running') ? s:bg : s:none )
+call s:h('StatusLine', s:none, s:bglighter, [s:attrs.bold])
+call s:h('StatusLineNC', s:none, s:bglight)
+call s:h('StatusLineTerm', s:none, s:bglighter, [s:attrs.bold])
+call s:h('StatusLineTermNC', s:none, s:bglight)
+call s:h('WildMenu', s:bg, s:purple, [s:attrs.bold])
+call s:h('CursorLine', s:none, s:subtle)
+call s:h('LineNr', s:comment, s:bgdarker)
+
+hi! link ColorColumn  AmoraBgDark
+hi! link CursorColumn CursorLine
+hi! link CursorLineNr AmoraRed
+hi! link DiffAdd      AmoraGreen
+hi! link DiffAdded    DiffAdd
+hi! link DiffChange   AmoraDiffChange
+hi! link DiffDelete   AmoraDiffDelete
+hi! link DiffRemoved  DiffDelete
+hi! link DiffText     AmoraDiffText
+hi! link Directory    AmoraPurpleBold
+hi! link ErrorMsg     AmoraRedInverse
+hi! link FoldColumn   AmoraSubtle
+hi! link Folded       AmoraBoundary
+hi! link IncSearch    AmoraOrangeInverse
+hi! link MoreMsg      AmoraFgBold
+hi! link NonText      AmoraRed
+hi! link Pmenu        AmoraBgDark
+hi! link PmenuSbar    AmoraBgDark
+hi! link PmenuSel     AmoraSelection
+hi! link PmenuThumb   AmoraSelection
+hi! link Question     AmoraFgBold
+hi! link Search       AmoraSearch
+call s:h('SignColumn', s:comment)
+hi! link TabLine      AmoraBoundary
+hi! link TabLineFill  AmoraBgDarker
+hi! link TabLineSel   Normal
+hi! link Title        AmoraGreenBold
+hi! link VertSplit    AmoraBoundary
+hi! link Visual       AmoraSelection
+hi! link VisualNOS    Visual
+hi! link WarningMsg   AmoraOrangeInverse
+
+" Syntax:
+
+" Required as some plugins will overwrite
+call s:h('MatchParen', s:green, s:none, [s:attrs.underline])
+call s:h('Conceal', s:cyan, s:none)
+
+" Neovim uses SpecialKey for escape characters only. Vim uses it for that, plus whitespace.
+if has('nvim')
+  hi! link SpecialKey AmoraRed
+  hi! link LspReferenceText AmoraSelection
+  hi! link LspReferenceRead AmoraSelection
+  hi! link LspReferenceWrite AmoraSelection
+  hi! link LspDiagnosticsDefaultInformation AmoraCyan
+  hi! link LspDiagnosticsDefaultHint AmoraCyan
+  hi! link LspDiagnosticsDefaultError AmoraError
+  hi! link LspDiagnosticsDefaultWarning AmoraOrange
+  hi! link LspDiagnosticsUnderlineError AmoraErrorLine
+  hi! link LspDiagnosticsUnderlineHint AmoraInfoLine
+  hi! link LspDiagnosticsUnderlineInformation AmoraInfoLine
+  hi! link LspDiagnosticsUnderlineWarning AmoraWarnLine
+else
+  hi! link SpecialKey AmoraSubtle
+endif
+
+hi! link Comment AmoraComment
+hi! link Underlined AmoraFgUnderline
+hi! link Todo AmoraTodo
+
+hi! link Error AmoraError
+hi! link SpellBad AmoraErrorLine
+hi! link SpellLocal AmoraWarnLine
+hi! link SpellCap AmoraInfoLine
+hi! link SpellRare AmoraInfoLine
+
+hi! link Constant AmoraPurple
+hi! link String AmoraGreen
+hi! link Character AmoraPink
+hi! link Number Constant
+hi! link Boolean Constant
+hi! link Float Constant
+
+hi! link Identifier AmoraPurple
+hi! link Function AmoraPurple
+
+hi! link Statement AmoraRed
+hi! link Conditional AmoraRed
+hi! link Repeat AmoraRed
+hi! link Label AmoraRed
+hi! link Operator AmoraRed
+hi! link Keyword AmoraRed
+hi! link Exception AmoraRed
+
+hi! link PreProc AmoraRed
+hi! link Include AmoraRed
+hi! link Define AmoraRed
+hi! link Macro AmoraRed
+hi! link PreCondit AmoraRed
+hi! link StorageClass AmoraRed
+hi! link Structure AmoraRed
+hi! link Typedef AmoraRed
+
+hi! link Type AmoraCyanItalic
+
+hi! link Delimiter AmoraFg
+
+hi! link Special AmoraPink
+hi! link SpecialComment AmoraCyanItalic
+hi! link Tag AmoraCyan
+hi! link helpHyperTextJump AmoraLink
+hi! link helpCommand AmoraPurple
+hi! link helpExample AmoraGreen
+hi! link helpBacktick Special
