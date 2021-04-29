@@ -2,7 +2,7 @@
 
 ### Introduction (Read the code!)
 
-![Amora introduction text](amora_screenshot.png)
+![Amora introduction text](amora.png)
 ![Amora color palette screenshot](amora_palette.png)
 
 > Amora is still under development. You can help me by sending issues or donating (see support section).
