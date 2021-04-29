@@ -19,7 +19,7 @@ Make sure to set your terminal background color to #2A2331
 
 ### Manually
 
-- Create a folder named 'colors' and another named 'autoload' in your '.config/nvim/' directory. (Ex.: '.config/nvim/colors');
+- Create a folder named 'colors' in your '.config/nvim/' directory. ('.config/nvim/colors');
 - Run on your terminal:
 	- git clone https://github.com/owozsh/amora
 	- cd amora
@@ -28,6 +28,13 @@ Make sure to set your terminal background color to #2A2331
 ## Support
 
 [Buy me a coffee! :)](https://www.buymeacoffee.com/owozsh)
+
+## Configuration
+
+Put these settings before 'colorscheme amora'
+
+- activate focus mode
+	- let g:mode = 'focus'
 
 ## Comments
 
