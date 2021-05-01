@@ -3,6 +3,7 @@
 ### Introduction (Read the code!)
 
 ![Amora introduction text](amora.png)
+![Amora vscode screenshot](amora_vscode.png)
 ![Amora color palette screenshot](amora_palette.png)
 
 > Amora is still under development. You can help me by sending issues or donating (see support section).
@@ -35,9 +36,3 @@ Put these settings before 'colorscheme amora'
 
 - activate focus mode
 	- let g:mode = 'focus'
-
-## Comments
-
-Hi! I'm owozsh, the creator of Amora.
-
-Currently, I'm improving the VIM version, when it gets polished enough, I'll start the vscode theme.
