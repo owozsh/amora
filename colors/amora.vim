@@ -78,7 +78,7 @@ elseif g:mode =='mirtilo'
   let g:amora#palette.red       = ['#fb5c8e', 203]
   let g:amora#palette.green     = ['#9fd3b3',  84]
   let g:amora#palette.yellow    = ['#fff0b8', 228]
-  let g:amora#palette.purple    = ['#a29dff', 141]
+  let g:amora#palette.purple    = ['#b2aeff', 141]
   let g:amora#palette.pink      = ['#f09eed', 212]
   let g:amora#palette.cyan      = ['#93c5e6', 117]
 
@@ -87,7 +87,7 @@ elseif g:mode =='mirtilo'
   let g:amora#palette.color_1  = '#ed3f7f'
   let g:amora#palette.color_2  = '#84c49b'
   let g:amora#palette.color_3  = '#f6e08b'
-  let g:amora#palette.color_4  = '#8a85ec'
+  let g:amora#palette.color_4  = '#a29dff'
   let g:amora#palette.color_5  = '#ed86ea'
   let g:amora#palette.color_6  = '#93c5e6'
   let g:amora#palette.color_7  = '#d5cde8'
@@ -95,7 +95,7 @@ elseif g:mode =='mirtilo'
   let g:amora#palette.color_9  = '#fb5c8e'
   let g:amora#palette.color_10 = '#9fd3b3'
   let g:amora#palette.color_11 = '#fff0b8'
-  let g:amora#palette.color_12 = '#a29dff'
+  let g:amora#palette.color_12 = '#b2aeff'
   let g:amora#palette.color_13 = '#f09eed'
   let g:amora#palette.color_14 = '#aed9f6'
   let g:amora#palette.color_15 = '#e2d9f6'
