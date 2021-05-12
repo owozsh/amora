@@ -71,7 +71,7 @@ elseif g:mode =='mirtilo'
   let g:amora#palette.bg        = ['#1a1a2e', 236]
   let g:amora#palette.bgdark    = ['#161627', 235]
   let g:amora#palette.bgdarker  = ['#121221', 234]
-  let g:amora#palette.comment   = ['#393762',  61]
+  let g:amora#palette.comment   = ['#4c4983',  61]
   let g:amora#palette.selection = ['#2c223c', 239]
   let g:amora#palette.subtle    = ['#2c223c', 238]
 
