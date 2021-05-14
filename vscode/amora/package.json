@@ -14,7 +14,12 @@
             {
                 "label": "Amora",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Amora-color-theme.json"
+                "path": "./themes/Amora-theme.json"
+            },
+            {
+                "label": "Amora Focus",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Amora-focus-theme.json"
             }
         ]
     }
