@@ -2,9 +2,8 @@
 
 ### Introduction (Read the code!)
 
-![Amora introduction text](amora.png)
+![Amora introduction text](amora_screenshot.png)
 ![Amora vscode screenshot](amora_vscode.png)
-![Amora color palette screenshot](amora_palette.png)
 
 > Amora is still under development. You can help me by sending issues or donating (see support section).
 
@@ -36,3 +35,5 @@ Put these settings before 'colorscheme amora'
 
 - activate focus mode
 	- let g:mode = 'focus'
+- activate mirtilo mode
+	- let g:mode = 'mirtilo'
