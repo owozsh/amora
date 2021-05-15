@@ -1,6 +1,6 @@
 # Amora Theme for Discord
 
-![image](https://user-images.githubusercontent.com/76597257/118355012-7c3be300-b576-11eb-86a4-1154793d5b1b.png)
+![image](https://user-images.githubusercontent.com/76597257/118355036-9bd30b80-b576-11eb-8f31-52380e984475.png)
 
 Test out the theme here: https://gibbu.github.io/ThemePreview/?file=https://raw.githack.com/Gitleptune/amora/main/discord/discord-amora-theme.css
 
