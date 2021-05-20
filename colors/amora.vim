@@ -26,10 +26,10 @@ let g:colors_name="amora"
 " Palette:
 
 let g:amora#palette    = {}
-let g:amora#palette.fg = ['#DEDBEB', 253]
 
 if g:mode == 'focus'
 
+  let g:amora#palette.fg = ['#DEDBEB', 253]
   let g:amora#palette.bglighter = ['#292929', 238]
   let g:amora#palette.bglight   = ['#212121', 237]
   let g:amora#palette.bg        = ['#1a1a1a', 236]
@@ -66,6 +66,7 @@ if g:mode == 'focus'
 
 elseif g:mode =='mirtilo'
 
+  let g:amora#palette.fg = ['#DEDBEB', 253]
   let g:amora#palette.bglighter = ['#2f2e51', 238]
   let g:amora#palette.bglight   = ['#23223d', 237]
   let g:amora#palette.bg        = ['#1a1a2e', 236]
@@ -100,8 +101,46 @@ elseif g:mode =='mirtilo'
   let g:amora#palette.color_14 = '#aed9f6'
   let g:amora#palette.color_15 = '#e2d9f6'
 
+elseif g:mode =='kiwi'
+
+  let g:amora#palette.fg = ['#e2d5bc', 253]
+  let g:amora#palette.bglighter = ['#354047', 238]
+  let g:amora#palette.bglight   = ['#2b333a', 237]
+  let g:amora#palette.bg        = ['#232a2f', 236]
+  let g:amora#palette.bgdark    = ['#1e2428', 235]
+  let g:amora#palette.bgdarker  = ['#191e22', 234]
+  let g:amora#palette.comment   = ['#6c8391',  61]
+  let g:amora#palette.selection = ['#414e58', 239]
+  let g:amora#palette.subtle    = ['#414e58', 238]
+
+  let g:amora#palette.red       = ['#ea6634', 203]
+  let g:amora#palette.green     = ['#aabb9c',  84]
+  let g:amora#palette.yellow    = ['#d4bc91', 228]
+  let g:amora#palette.purple    = ['#8da5ce', 141]
+  let g:amora#palette.pink      = ['#df8b92', 212]
+  let g:amora#palette.cyan      = ['#9cc2de', 117]
+
+  " ANSI:
+  let g:amora#palette.color_0  = '#161a1e'
+  let g:amora#palette.color_1  = '#c8582d'
+  let g:amora#palette.color_2  = '#89977f'
+  let g:amora#palette.color_3  = '#baa57f'
+  let g:amora#palette.color_4  = '#7b90b3'
+  let g:amora#palette.color_5  = '#c97e84'
+  let g:amora#palette.color_6  = '#8fb1cb'
+  let g:amora#palette.color_7  = '#c9c3b8'
+  let g:amora#palette.color_8  = '#313a43'
+  let g:amora#palette.color_9  = '#ea6634'
+  let g:amora#palette.color_10 = '#aabb9c'
+  let g:amora#palette.color_11 = '#d4bc91'
+  let g:amora#palette.color_12 = '#8da5ce'
+  let g:amora#palette.color_13 = '#df8b92'
+  let g:amora#palette.color_14 = '#9cc2de'
+  let g:amora#palette.color_15 = '#f1e9db'
+
 else
 
+  let g:amora#palette.fg = ['#DEDBEB', 253]
   let g:amora#palette.bglighter = ['#372e40', 238]
   let g:amora#palette.bglight   = ['#302838', 237]
   let g:amora#palette.bg        = ['#2a2331', 236]
