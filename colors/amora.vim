@@ -114,7 +114,7 @@ elseif g:mode =='vscode_colors'
   let g:amora#palette.subtle    = ['#3e1f3f', 238]
 
   let g:amora#palette.red       = ['#E83F80', 203]
-  let g:amora#palette.green     = ['#E0EB57',  84]
+  let g:amora#palette.green     = ['#d9e07b',  84]
   let g:amora#palette.yellow    = ['#FFB65E', 228]
   let g:amora#palette.purple    = ['#B982FF', 141]
   let g:amora#palette.pink      = ['#F57FFF', 212]
@@ -123,7 +123,7 @@ elseif g:mode =='vscode_colors'
   " ANSI:
   let g:amora#palette.color_0  = '#512A53'
   let g:amora#palette.color_1  = '#E83F80'
-  let g:amora#palette.color_2  = '#E0EB57'
+  let g:amora#palette.color_2  = '#d9e07b'
   let g:amora#palette.color_3  = '#FFB65E'
   let g:amora#palette.color_4  = '#B982FF'
   let g:amora#palette.color_5  = '#F57FFF'
@@ -131,7 +131,7 @@ elseif g:mode =='vscode_colors'
   let g:amora#palette.color_7  = '#F7ECF7'
   let g:amora#palette.color_8  = '#512A53'
   let g:amora#palette.color_9  = '#E83F80'
-  let g:amora#palette.color_10  = '#E0EB57'
+  let g:amora#palette.color_10 = '#d9e07b'
   let g:amora#palette.color_11 = '#FFB65E'
   let g:amora#palette.color_12 = '#B982FF'
   let g:amora#palette.color_13 = '#F57FFF'
