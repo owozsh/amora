@@ -104,14 +104,14 @@ elseif g:mode =='mirtilo'
 elseif g:mode =='vscode_colors'
 
   let g:amora#palette.fg = ['#F7E3F7', 253]
-  let g:amora#palette.bglighter = ['#3e1f3f', 238]
-  let g:amora#palette.bglight   = ['#311933', 237]
+  let g:amora#palette.bglighter = ['#37283f', 238]
+  let g:amora#palette.bglight   = ['#2c2033', 237]
   let g:amora#palette.bg        = ['#261C2C', 236]
-  let g:amora#palette.bgdark    = ['#221123', 235]
-  let g:amora#palette.bgdarker  = ['#1d0f1e', 234]
-  let g:amora#palette.comment   = ['#512a53',  61]
-  let g:amora#palette.selection = ['#3e1f3f', 239]
-  let g:amora#palette.subtle    = ['#3e1f3f', 238]
+  let g:amora#palette.bgdark    = ['#211826', 235]
+  let g:amora#palette.bgdarker  = ['#1a131e', 234]
+  let g:amora#palette.comment   = ['#633466',  61]
+  let g:amora#palette.selection = ['#37283f', 239]
+  let g:amora#palette.subtle    = ['#37283f', 238]
 
   let g:amora#palette.red       = ['#DD5289', 203]
   let g:amora#palette.green     = ['#B2C491',  84]
