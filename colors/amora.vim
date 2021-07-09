@@ -114,8 +114,8 @@ elseif g:mode =='vscode_colors'
   let g:amora#palette.subtle    = ['#3e1f3f', 238]
 
   let g:amora#palette.red       = ['#E83F80', 203]
-  let g:amora#palette.green     = ['#d9e07b',  84]
-  let g:amora#palette.yellow    = ['#FFB65E', 228]
+  let g:amora#palette.green     = ['#FFB65E',  84]
+  let g:amora#palette.yellow    = ['#d9e07b', 228]
   let g:amora#palette.purple    = ['#B982FF', 141]
   let g:amora#palette.pink      = ['#F57FFF', 212]
   let g:amora#palette.cyan      = ['#B3DFEF', 117]
