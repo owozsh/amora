@@ -103,22 +103,22 @@ elseif g:mode =='mirtilo'
 
 elseif g:mode =='vscode_colors'
 
-  let g:amora#palette.fg = ['#F7ECF7', 253]
+  let g:amora#palette.fg = ['#F7E3F7', 253]
   let g:amora#palette.bglighter = ['#3e1f3f', 238]
   let g:amora#palette.bglight   = ['#311933', 237]
-  let g:amora#palette.bg        = ['#29152A', 236]
+  let g:amora#palette.bg        = ['#261C2C', 236]
   let g:amora#palette.bgdark    = ['#221123', 235]
   let g:amora#palette.bgdarker  = ['#1d0f1e', 234]
   let g:amora#palette.comment   = ['#512a53',  61]
   let g:amora#palette.selection = ['#3e1f3f', 239]
   let g:amora#palette.subtle    = ['#3e1f3f', 238]
 
-  let g:amora#palette.red       = ['#E83F80', 203]
-  let g:amora#palette.green     = ['#d9e07b',  84]
-  let g:amora#palette.yellow    = ['#FFB65E', 228]
-  let g:amora#palette.purple    = ['#B982FF', 141]
-  let g:amora#palette.pink      = ['#F57FFF', 212]
-  let g:amora#palette.cyan      = ['#B3DFEF', 117]
+  let g:amora#palette.red       = ['#DD5289', 203]
+  let g:amora#palette.green     = ['#DBC98A',  84]
+  let g:amora#palette.yellow    = ['#E3B36B', 228]
+  let g:amora#palette.purple    = ['#C084F8', 141]
+  let g:amora#palette.pink      = ['#EF83F7', 212]
+  let g:amora#palette.cyan      = ['#BDCEED', 117]
 
   " ANSI:
   let g:amora#palette.color_0  = '#512A53'
