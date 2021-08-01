@@ -3,30 +3,38 @@
 Just paste it to your kitty.conf file.
 
 ```
-foreground #DEDBEB
-background #2A2331
+foreground #F7E3F7
+background #261C2C
 
-color0 #28222d
-color8 #302838
+color0 #512A53
+color8 #512A53
 
-color1 #ed3f7f
-color9 #fb5c8e
+# red
+color1 #E83F80
+color9 #E83F80
 
-color2 #a2baa8
-color10 #bfd1c3
+# green
+color2 #d9e07b
+color10 #d9e07b
 
-color3 #eacac0
-color11 #f0ddd8
+# yellow
+color3 #FFB65E
+color11 #FFB65E
 
-color4 #9985d1
-color12 #b4a4de
+# blue
+color4 #B982FF
+color12 #B982FF
 
-color5 #e68ac1
-color13 #edabd2
+# magenta
+color5 #F57FFF
+color13 #F57FFF
 
-color6 #aabae7
-color14 #c4d1f5
+# cyan
+color6   #B3DFEF
+color14   #B3DFEF
 
-color7 #dedbeb
-color15 #edebf7
+# white
+color7   #F7ECF7
+color15   #F7ECF7
+
 ```
