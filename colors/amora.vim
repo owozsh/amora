@@ -64,6 +64,44 @@ if g:mode == 'focus'
   let g:amora#palette.color_14 = '#c4d1f5'
   let g:amora#palette.color_15 = '#edebf7'
 
+elseif g:mode =='focus_testing'
+
+  let g:amora#palette.fg = ['#DEDBEB', 253]
+  let g:amora#palette.bglighter = ['#292929', 238]
+  let g:amora#palette.bglight   = ['#212121', 237]
+  let g:amora#palette.bg        = ['#1a1a1a', 236]
+  let g:amora#palette.bgdark    = ['#171717', 235]
+  let g:amora#palette.bgdarker  = ['#141414', 234]
+  let g:amora#palette.comment   = ['#5c5c5c',  61]
+  let g:amora#palette.selection = ['#634e75', 239]
+  let g:amora#palette.subtle    = ['#212121', 238]
+
+  let g:amora#palette.red       = ['#DD5289', 203]
+  let g:amora#palette.green     = ['#B2C491',  84]
+  let g:amora#palette.yellow    = ['#F7D98D', 228]
+  let g:amora#palette.purple    = ['#C3B4FF', 141]
+  let g:amora#palette.pink      = ['#EF83F7', 212]
+  let g:amora#palette.cyan      = ['#BDCEED', 117]
+
+  " ANSI:
+  let g:amora#palette.color_0  = '#512A53'
+  let g:amora#palette.color_1  = '#E83F80'
+  let g:amora#palette.color_2  = '#d9e07b'
+  let g:amora#palette.color_3  = '#FFB65E'
+  let g:amora#palette.color_4  = '#B982FF'
+  let g:amora#palette.color_5  = '#F57FFF'
+  let g:amora#palette.color_6  = '#B3DFEF'
+  let g:amora#palette.color_7  = '#F7ECF7'
+  let g:amora#palette.color_8  = '#512A53'
+  let g:amora#palette.color_9  = '#E83F80'
+  let g:amora#palette.color_10 = '#d9e07b'
+  let g:amora#palette.color_11 = '#FFB65E'
+  let g:amora#palette.color_12 = '#B982FF'
+  let g:amora#palette.color_13 = '#F57FFF'
+  let g:amora#palette.color_14 = '#B3DFEF'
+  let g:amora#palette.color_15 = '#F7ECF7'
+
+
 elseif g:mode =='mirtilo'
 
   let g:amora#palette.fg = ['#DEDBEB', 253]
@@ -101,42 +139,42 @@ elseif g:mode =='mirtilo'
   let g:amora#palette.color_14 = '#aed9f6'
   let g:amora#palette.color_15 = '#e2d9f6'
 
-elseif g:mode =='vscode_colors'
+elseif g:mode =='old_amora'
 
-  let g:amora#palette.fg = ['#F7E3F7', 253]
-  let g:amora#palette.bglighter = ['#37283f', 238]
-  let g:amora#palette.bglight   = ['#2c2033', 237]
-  let g:amora#palette.bg        = ['#261C2C', 236]
-  let g:amora#palette.bgdark    = ['#211826', 235]
-  let g:amora#palette.bgdarker  = ['#1a131e', 234]
-  let g:amora#palette.comment   = ['#633466',  61]
-  let g:amora#palette.selection = ['#37283f', 239]
-  let g:amora#palette.subtle    = ['#37283f', 238]
+  let g:amora#palette.fg = ['#DEDBEB', 253]
+  let g:amora#palette.bglighter = ['#372e40', 238]
+  let g:amora#palette.bglight   = ['#302838', 237]
+  let g:amora#palette.bg        = ['#2a2331', 236]
+  let g:amora#palette.bgdark    = ['#251f2b', 235]
+  let g:amora#palette.bgdarker  = ['#211c26', 234]
+  let g:amora#palette.comment   = ['#634e75',  61]
+  let g:amora#palette.selection = ['#634e75', 239]
+  let g:amora#palette.subtle    = ['#302838', 238]
 
-  let g:amora#palette.red       = ['#DD5289', 203]
-  let g:amora#palette.green     = ['#B2C491',  84]
-  let g:amora#palette.yellow    = ['#F7D98D', 228]
-  let g:amora#palette.purple    = ['#C3B4FF', 141]
-  let g:amora#palette.pink      = ['#EF83F7', 212]
-  let g:amora#palette.cyan      = ['#BDCEED', 117]
+  let g:amora#palette.red       = ['#fb5c8e', 203]
+  let g:amora#palette.green     = ['#a2baa8',  84]
+  let g:amora#palette.yellow    = ['#eacac0', 228]
+  let g:amora#palette.purple    = ['#b4a4de', 141]
+  let g:amora#palette.pink      = ['#edabd2', 212]
+  let g:amora#palette.cyan      = ['#aabae7', 117]
 
   " ANSI:
-  let g:amora#palette.color_0  = '#512A53'
-  let g:amora#palette.color_1  = '#E83F80'
-  let g:amora#palette.color_2  = '#d9e07b'
-  let g:amora#palette.color_3  = '#FFB65E'
-  let g:amora#palette.color_4  = '#B982FF'
-  let g:amora#palette.color_5  = '#F57FFF'
-  let g:amora#palette.color_6  = '#B3DFEF'
-  let g:amora#palette.color_7  = '#F7ECF7'
-  let g:amora#palette.color_8  = '#512A53'
-  let g:amora#palette.color_9  = '#E83F80'
-  let g:amora#palette.color_10 = '#d9e07b'
-  let g:amora#palette.color_11 = '#FFB65E'
-  let g:amora#palette.color_12 = '#B982FF'
-  let g:amora#palette.color_13 = '#F57FFF'
-  let g:amora#palette.color_14 = '#B3DFEF'
-  let g:amora#palette.color_15 = '#F7ECF7'
+  let g:amora#palette.color_0  = '#28222d'
+  let g:amora#palette.color_1  = '#ed3f7f'
+  let g:amora#palette.color_2  = '#a2baa8'
+  let g:amora#palette.color_3  = '#eacac0'
+  let g:amora#palette.color_4  = '#9985d1'
+  let g:amora#palette.color_5  = '#e68ac1'
+  let g:amora#palette.color_6  = '#aabae7'
+  let g:amora#palette.color_7  = '#dedbeb'
+  let g:amora#palette.color_8  = '#302838'
+  let g:amora#palette.color_9  = '#fb5c8e'
+  let g:amora#palette.color_10 = '#bfd1c3'
+  let g:amora#palette.color_11 = '#f0ddd8'
+  let g:amora#palette.color_12 = '#b4a4de'
+  let g:amora#palette.color_13 = '#edabd2'
+  let g:amora#palette.color_14 = '#c4d1f5'
+  let g:amora#palette.color_15 = '#edebf7'
 
 elseif g:mode =='kiwi'
 
@@ -177,40 +215,41 @@ elseif g:mode =='kiwi'
 
 else
 
-  let g:amora#palette.fg = ['#DEDBEB', 253]
-  let g:amora#palette.bglighter = ['#372e40', 238]
-  let g:amora#palette.bglight   = ['#302838', 237]
-  let g:amora#palette.bg        = ['#2a2331', 236]
-  let g:amora#palette.bgdark    = ['#251f2b', 235]
-  let g:amora#palette.bgdarker  = ['#211c26', 234]
-  let g:amora#palette.comment   = ['#634e75',  61]
-  let g:amora#palette.selection = ['#634e75', 239]
-  let g:amora#palette.subtle    = ['#302838', 238]
+  let g:amora#palette.fg = ['#F7E3F7', 253]
+  let g:amora#palette.bglighter = ['#37283f', 238]
+  let g:amora#palette.bglight   = ['#2c2033', 237]
+  let g:amora#palette.bg        = ['#261C2C', 236]
+  let g:amora#palette.bgdark    = ['#211826', 235]
+  let g:amora#palette.bgdarker  = ['#1a131e', 234]
+  let g:amora#palette.comment   = ['#633466',  61]
+  let g:amora#palette.selection = ['#37283f', 239]
+  let g:amora#palette.subtle    = ['#37283f', 238]
 
-  let g:amora#palette.red       = ['#fb5c8e', 203]
-  let g:amora#palette.green     = ['#a2baa8',  84]
-  let g:amora#palette.yellow    = ['#eacac0', 228]
-  let g:amora#palette.purple    = ['#b4a4de', 141]
-  let g:amora#palette.pink      = ['#edabd2', 212]
-  let g:amora#palette.cyan      = ['#aabae7', 117]
+  let g:amora#palette.red       = ['#DD5289', 203]
+  let g:amora#palette.green     = ['#B2C491',  84]
+  let g:amora#palette.yellow    = ['#F7D98D', 228]
+  let g:amora#palette.purple    = ['#C3B4FF', 141]
+  let g:amora#palette.pink      = ['#EF83F7', 212]
+  let g:amora#palette.cyan      = ['#BDCEED', 117]
 
   " ANSI:
-  let g:amora#palette.color_0  = '#28222d'
-  let g:amora#palette.color_1  = '#ed3f7f'
-  let g:amora#palette.color_2  = '#a2baa8'
-  let g:amora#palette.color_3  = '#eacac0'
-  let g:amora#palette.color_4  = '#9985d1'
-  let g:amora#palette.color_5  = '#e68ac1'
-  let g:amora#palette.color_6  = '#aabae7'
-  let g:amora#palette.color_7  = '#dedbeb'
-  let g:amora#palette.color_8  = '#302838'
-  let g:amora#palette.color_9  = '#fb5c8e'
-  let g:amora#palette.color_10 = '#bfd1c3'
-  let g:amora#palette.color_11 = '#f0ddd8'
-  let g:amora#palette.color_12 = '#b4a4de'
-  let g:amora#palette.color_13 = '#edabd2'
-  let g:amora#palette.color_14 = '#c4d1f5'
-  let g:amora#palette.color_15 = '#edebf7'
+  let g:amora#palette.color_0  = '#512A53'
+  let g:amora#palette.color_1  = '#E83F80'
+  let g:amora#palette.color_2  = '#d9e07b'
+  let g:amora#palette.color_3  = '#FFB65E'
+  let g:amora#palette.color_4  = '#B982FF'
+  let g:amora#palette.color_5  = '#F57FFF'
+  let g:amora#palette.color_6  = '#B3DFEF'
+  let g:amora#palette.color_7  = '#F7ECF7'
+  let g:amora#palette.color_8  = '#512A53'
+  let g:amora#palette.color_9  = '#E83F80'
+  let g:amora#palette.color_10 = '#d9e07b'
+  let g:amora#palette.color_11 = '#FFB65E'
+  let g:amora#palette.color_12 = '#B982FF'
+  let g:amora#palette.color_13 = '#F57FFF'
+  let g:amora#palette.color_14 = '#B3DFEF'
+  let g:amora#palette.color_15 = '#F7ECF7'
+
 endif
 
 
