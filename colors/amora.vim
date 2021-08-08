@@ -225,12 +225,12 @@ else
   let g:amora#palette.selection = ['#37283f', 239]
   let g:amora#palette.subtle    = ['#37283f', 238]
 
-  let g:amora#palette.red       = ['#DD5289', 203]
-  let g:amora#palette.green     = ['#B2C491',  84]
-  let g:amora#palette.yellow    = ['#F7D98D', 228]
-  let g:amora#palette.purple    = ['#C3B4FF', 141]
-  let g:amora#palette.pink      = ['#EF83F7', 212]
-  let g:amora#palette.cyan      = ['#BDCEED', 117]
+  let g:amora#palette.red       = ['#E83F80', 203]
+  let g:amora#palette.green     = ['#d9e07b',  84]
+  let g:amora#palette.yellow    = ['#FFB65E', 228]
+  let g:amora#palette.purple    = ['#B982FF', 141]
+  let g:amora#palette.pink      = ['#F57FFF', 212]
+  let g:amora#palette.cyan      = ['#B3DFEF', 117]
 
   " ANSI:
   let g:amora#palette.color_0  = '#512A53'
