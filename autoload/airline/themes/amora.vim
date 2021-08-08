@@ -27,6 +27,7 @@ function! airline#themes#amora#refresh()
 
     let g:amora#palette.red       = ['#fb5c8e', 203]
     let g:amora#palette.green     = ['#a2baa8',  84]
+
     let g:amora#palette.yellow    = ['#eacac0', 228]
     let g:amora#palette.purple    = ['#b4a4de', 141]
     let g:amora#palette.pink      = ['#edabd2', 212]
@@ -238,25 +239,26 @@ function! airline#themes#amora#refresh()
 
   endif
 
-  if get(g:, 'amora_termcolors', 256) == 16
-    let s:term_red = 1
-    let s:term_green = 2
-    let s:term_yellow = 3
-    let s:term_blue = 4
-    let s:term_purple = 5
-    let s:term_white = 7
-    let s:term_black = 0
-    let s:term_grey = 8
-  else
-    let s:term_red = 204
-    let s:term_green = 114
-    let s:term_yellow = 180
-    let s:term_blue = 39
-    let s:term_purple = 170
-    let s:term_white = 145
-    let s:term_black = 235
-    let s:term_grey = 236
-  endif
+  " Palette:
+
+  let s:fg        = g:amora#palette.fg
+
+  let s:bglighter = g:amora#palette.bglighter
+  let s:bglight   = g:amora#palette.bglight
+  let s:bg        = g:amora#palette.bg
+  let s:bgdark    = g:amora#palette.bgdark
+  let s:bgdarker  = g:amora#palette.bgdarker
+
+  let s:comment   = g:amora#palette.comment
+  let s:selection = g:amora#palette.selection
+  let s:subtle    = g:amora#palette.subtle
+
+  let s:red       = g:amora#palette.red
+  let s:green     = g:amora#palette.green
+  let s:yellow    = g:amora#palette.yellow
+  let s:purple    = g:amora#palette.purple
+  let s:pink      = g:amora#palette.pink
+  let s:cyan      = g:amora#palette.cyan
 
 
   let g:airline#themes#amora#palette.accents = {
