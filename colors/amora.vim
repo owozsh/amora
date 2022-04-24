@@ -139,6 +139,42 @@ elseif g:mode =='mirtilo'
   let g:amora#palette.color_14 = '#aed9f6'
   let g:amora#palette.color_15 = '#e2d9f6'
 
+elseif g:mode =='jack-o-lantern'
+
+  let g:amora#palette.fg = ['#EDE8DA', 253]
+  let g:amora#palette.bglighter = ['#2f2e51', 238]
+  let g:amora#palette.bglight   = ['#23223d', 237]
+  let g:amora#palette.bg        = ['#181a16', 236]
+  let g:amora#palette.bgdark    = ['#0F120C', 235]
+  let g:amora#palette.bgdarker  = ['#0a0d08', 234]
+  let g:amora#palette.comment   = ['#515543',  61]
+  let g:amora#palette.selection = ['#515543', 239]
+  let g:amora#palette.subtle    = ['#23223d', 238]
+
+  let g:amora#palette.red       = ['#ea5c52', 203]
+  let g:amora#palette.green     = ['#CDD384',  84]
+  let g:amora#palette.yellow    = ['#ffc861', 228]
+  let g:amora#palette.purple    = ['#d384a5', 141]
+  let g:amora#palette.pink      = ['#ff9f50', 212]
+  let g:amora#palette.cyan      = ['#adcfbc', 117]
+
+  " ANSI:
+  let g:amora#palette.color_0  = '#23223d'
+  let g:amora#palette.color_1  = '#ed3f7f'
+  let g:amora#palette.color_2  = '#84c49b'
+  let g:amora#palette.color_3  = '#f6e08b'
+  let g:amora#palette.color_4  = '#a29dff'
+  let g:amora#palette.color_5  = '#ed86ea'
+  let g:amora#palette.color_6  = '#93c5e6'
+  let g:amora#palette.color_7  = '#d5cde8'
+  let g:amora#palette.color_8  = '#2f2e51'
+  let g:amora#palette.color_9  = '#fb5c8e'
+  let g:amora#palette.color_10 = '#9fd3b3'
+  let g:amora#palette.color_11 = '#fff0b8'
+  let g:amora#palette.color_12 = '#b2aeff'
+  let g:amora#palette.color_13 = '#f09eed'
+  let g:amora#palette.color_14 = '#aed9f6'
+  let g:amora#palette.color_15 = '#e2d9f6'
 elseif g:mode =='old_amora'
 
   let g:amora#palette.fg = ['#DEDBEB', 253]
