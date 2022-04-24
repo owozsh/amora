@@ -149,7 +149,7 @@ elseif g:mode =='jack-o-lantern'
   let g:amora#palette.bgdarker  = ['#0a0d08', 234]
   let g:amora#palette.comment   = ['#515543',  61]
   let g:amora#palette.selection = ['#515543', 239]
-  let g:amora#palette.subtle    = ['#23223d', 238]
+  let g:amora#palette.subtle    = ['#0a0d08', 238]
 
   let g:amora#palette.red       = ['#ff9f50', 203]
   let g:amora#palette.green     = ['#CDD384',  84]
