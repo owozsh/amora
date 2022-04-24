@@ -142,7 +142,7 @@ elseif g:mode =='mirtilo'
 elseif g:mode =='jack-o-lantern'
 
   let g:amora#palette.fg = ['#EDE8DA', 253]
-  let g:amora#palette.bglighter = ['#2f2e51', 238]
+  let g:amora#palette.bglighter = ['#0a0d08', 238]
   let g:amora#palette.bglight   = ['#0a0d08', 237]
   let g:amora#palette.bg        = ['#181a16', 236]
   let g:amora#palette.bgdark    = ['#0F120C', 235]
